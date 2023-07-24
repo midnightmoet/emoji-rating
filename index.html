@@ -7,8 +7,33 @@
     <title>Emoji Rating</title>
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   </head>
   <body>
+    <div class="feedback-container">
+        <div class="emoji-container">
+            <i class="far fa-angry fa-3x emoji"></i>
+            <i class="far fa-frown fa-3x emoji"></i>
+            <i class="far fa-meh fa-3x emoji"></i>
+            <i class="far fa-smile fa-3x emoji"></i>
+            <i class="far fa-laugh fa-3x emoji"></i>
+        </div>
+        <div class="rating-container">
+            <i class="fas fa-star fa-2x"></i>
+            <i class="fas fa-star fa-2x"></i>
+            <i class="fas fa-star fa-2x"></i>
+            <i class="fas fa-star fa-2x"></i>
+            <i class="fas fa-star fa-2x"></i>
+        </div>
+        <div class="textbox-container">
+            <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Enter your feedback here..."></textarea>
+        </div>
+        <div class="btn-container">
+            <button type="submit" class="btn">Submit</button>
+            <p class="message" id="message"></p>
+        </div>
+    </div>
     <!-- JS -->
     <script src="script.js"></script>
   </body>
